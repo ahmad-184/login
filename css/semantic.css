@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+body{
+    background-image: linear-gradient(90deg , #007bff70 0, #df48cf 100%);
+    text-align: center;
+    font-family: 'Rubik', sans-serif; ;
+}
+@font-face {
+    font-family: "arial";
+    font-family: "PT sans";
+    font-family: "corbel";
+    src: url(/fonts/arialbd.ttf) format(ttf);
+    src: url(/fonts/arialbi.ttf) format(ttf);
+    src: url(/fonts/ariali.ttf) format(ttf);
+    src: url(/fonts/arial.ttf) format(ttf);
+    src: url(/fonts/PTSans-Bold.ttf) format(ttf);
+    src: url(/fonts/corbelb.ttf) format(ttf) ;
+}
+
+div{
+    margin: 220px auto;
+    width: 361px;
+    height: 437px;
+    background-color: white;
+    border-radius: 15px;
+}
+input{
+    position: relative;
+    top: 4.5rem;
+    width: 77%;
+    padding: .7em 0;
+    color: rgb(72, 72, 72);
+}
+[class|=input]:focus{
+    outline: none;
+    border-bottom: 2px solid #007FFF;
+}
+[class|=input]{
+    padding-left: 10px;
+    border: none;
+    border-bottom:1px solid #007FFF;
+}
+h3{
+    position: relative;
+    color:rgb(102, 102, 102);
+    top: 4rem;
+}
+input[type=button]{
+    width: 80%;
+    font-family: 'Heebo', sans-serif;
+    padding: 7px;
+    font-size: 19px;
+    position: relative;
+    top: 4.3em;
+    cursor: pointer;
+    background-image: linear-gradient(90deg , #5b9de4 0%,#e894ff 51%, #4640ff 100%);
+    border: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+}
+input[type=button]:hover{
+    background-position: right center;
+}
+a{
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    top: 6rem;
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+    font-size: 14px;
+
+}
+a:nth-last-of-type(1){
+    color: #307fff;
+    margin-top: 20px;
+    font-size: 15px;
+    top: 6.6rem;
+}
+span{
+    color: #3681fa;
+}
+
